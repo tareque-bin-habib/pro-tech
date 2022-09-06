@@ -1,0 +1,9 @@
+.image-top {
+    /* background-color: black; */
+    opacity: 0.9;
+}
+
+.banner-head {
+    position: absolute;
+    bottom: 35%;
+}
