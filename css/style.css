@@ -8,6 +8,17 @@
     bottom: 35%;
 }
 
+.common-button {
+    background-color: #289BDE;
+}
+
+
+
+.uncommon-button {
+    background-color: #fff;
+    color: #289BDE;
+}
+
 .join {
     background-color: #289BDE;
     height: 300px;
