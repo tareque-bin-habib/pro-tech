@@ -11,7 +11,6 @@
 .join {
     background-color: #289BDE;
     height: 300px;
-    width: 100%;
 }
 
 footer {
@@ -28,8 +27,58 @@ footer {
 
 
 /* RESPONSIVE */
-@media only screen and (max-width: 767px) {
+@media only screen and (max-width: 358px) {
+    .heading {
+        font-size: 12px;
+    }
+
+    .banner-head {
+        bottom: 0%;
+    }
+
+    .pera {
+        font-size: 8px;
+    }
+
     .company {
         display: none;
+    }
+}
+
+@media only screen and (min-width: 358px) and (max-width: 440px) {
+    .heading {
+        font-size: 15px;
+    }
+
+    .banner-head {
+        bottom: 0%;
+    }
+
+    .pera {
+        font-size: 10px;
+    }
+
+    .company {
+        display: none;
+    }
+}
+
+@media only screen and (min-width: 440px) and (max-width: 768px) {
+    .company {
+        display: none;
+    }
+
+    .heading {
+        font-size: 20px;
+    }
+
+    .banner-head {
+        bottom: 0%;
+    }
+}
+
+@media only screen and (min-width: 767px) and (max-width: 991px) {
+    .banner-head {
+        bottom: 0%;
     }
 }
