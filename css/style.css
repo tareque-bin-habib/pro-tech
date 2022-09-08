@@ -1,5 +1,7 @@
+/*-----------------
+     Raw CSS
+    ------------ */
 .image-top {
-    /* background-color: black; */
     opacity: 0.9;
 }
 
@@ -35,13 +37,9 @@ footer {
 }
 
 
-
-
-
-
-
-
-/* RESPONSIVE */
+/*---------------------
+     RESPONSIVE
+    -------------------- */
 @media only screen and (max-width: 358px) {
     .heading {
         font-size: 12px;
